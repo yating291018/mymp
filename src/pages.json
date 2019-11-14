@@ -1,6 +1,18 @@
 {
 	"pages": [
 		{
+			"path": "pages/mapv/index",
+			"style": {
+				"navigationBarTitleText": "地图1"
+			}
+		},
+		{
+			"path": "pages/map/index",
+			"style": {
+				"navigationBarTitleText": "地图"
+			}
+		},
+		{
 			"path": "pages/home/home",
 			"style": {
 				"navigationBarTitleText": "我的"
@@ -19,6 +31,18 @@
 		"borderStyle": "black",
 		"backgroundColor": "#ffffff",
 		"list": [
+			{
+				"pagePath": "pages/mapv/index",
+				"text": "地图1",
+				"iconPath": "static/logo.jpeg",
+				"selectedIconPath": "static/logo.jpeg"
+			},
+			{
+				"pagePath": "pages/map/index",
+				"text": "地图",
+				"iconPath": "static/logo.jpeg",
+				"selectedIconPath": "static/logo.jpeg"
+			},
 			{
 				"pagePath": "pages/index/index",
 				"text": "首页",
